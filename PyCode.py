@@ -39,7 +39,7 @@ content = content.replace("ring dip", "ring dips")
 unique_words = set(content.split(' '))
 
 #movements looking to check 
-movements = ['deadlift ',"overhead squats","clean","back squat","front squat","power clean","chest to bar","burpee","jerk","hspu",'snatch ',"row","bike erg","echo bike",
+movements = ['deadlift',"overhead squats","clean","back squat","front squat","power clean","chest to bar","burpee","jerk","hspu",'snatch',"row","bike erg","echo bike",
 "pistols","strict press","push press","split jerk","push jerk","ski","bar muscle up","ring muscle up","strict hspu", "wall walk","power snatch","squat snatch",
 "pull ups","double under","squat clean","toes to bar","ring dips","strict pull up","thrusters","hang power snatch","push-ups","rope climb","wallball","chest to bar"]
 
