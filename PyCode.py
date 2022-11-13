@@ -5,4 +5,5 @@ content = f.read()
 content = content.replace("- ","")
 content = content.replace("[","")
 content = content.replace("]","")
-print(content)
+
+    
