@@ -16,7 +16,8 @@ print(unique_words)
 #movements looking to check 
 movements = ['deadlift',"overhead squat","clean","back squat","front squat","power clean","ctb","burpee", "clean and jerk","jerk","hspu",'snatch',"row","bike erg","echo bike",
 "pistols","ttb","strict press","push press","split jerk","push jerk","ski","bar muscle up","ring muscle up","strict hspu", "wall walk","power snatch","squat snatch",
-"pull ups","double under"]
+"pull ups","double under","squat clean","power clean and jerk","power clean and push jerk", "power clean and split jerk","toe to bar"]
+
 
 #check through string and print count 
 resultList = []
