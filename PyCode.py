@@ -1,6 +1,7 @@
 #import the training text file, strip characters. Leave only the movements and weights. 
 #Doing this so I can over time see which movements I'm missing and work on them throughout the month/year
-f = open('7th Training.txt', 'r')
+fileName = "14th Training.txt"
+f = open(fileName, 'r')
 content = f.read()
 content = content.replace("- ","")
 content = content.replace("[","")
@@ -21,11 +22,10 @@ movements = ['deadlift',"overhead squat","clean","back squat","front squat","pow
 resultList = []
 for i in movements:
     count = content.count(i)
-    print(i,count)
     resultList.append([count,i])
 
 print(resultList)
-resultList.sort(reverse=True)
+resultList.sort()
 print(resultList)
 for i in resultList:
     print(i)
