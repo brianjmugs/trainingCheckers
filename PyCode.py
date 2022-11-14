@@ -5,7 +5,7 @@ import os
 files = os.listdir()
 content = ""
 for i in files:
-    if "Chalk" in i:
+    if ".txt" in i:
         f = open(i, 'r',encoding='utf8', errors='ignore')
         content = content + f.read()
         #print(i)
