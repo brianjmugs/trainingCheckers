@@ -2,14 +2,28 @@ import os
 
 #import the training text file, strip characters. Leave only the movements and weights. 
 #Doing this so I can over time see which movements I'm missing and work on them throughout the month/year
-files = os.listdir()
+files = os.listdir("data")
 content = ""
+trainingLogContent = ""
+trainFile = os.listdir()
 for i in files:
+    print(i)
     if ".txt" in i:
+        i = "data/"+str(i)
+        print(i)
         f = open(i, 'r',encoding='utf8', errors='ignore')
         content = content + f.read()
         #print(i)
         f.close()
+
+for i in trainFile:
+    print(i)
+    if ".txt" in i:
+        print(i)
+        f = open(i, 'r',encoding='utf8', errors='ignore')
+        trainingLogContent = trainingLogContent + f.read()
+        f.close()
+print(trainingLogContent)
 content = content.replace("- "," ")
 content = content.replace("-"," ")
 content = content.replace("[","")
@@ -34,7 +48,6 @@ content = content.replace("cal erg", "calorie erg")
 content = content.replace("kbs","kettlebell swing")
 content = content.replace("c2 bike","bike erg")
 content = content.replace("bar muscle-up","bar muscle up")
-
 
 #print("test1")
 #def removeLine(word):
@@ -120,9 +133,9 @@ movementSort = ""
 #for i in listByName:
 #    movements.append(i)
 ##print(movementSort)
-with open('training.txt', 'w') as f:
+with open('results/training.txt', 'w') as f:
     for i in resultList:
         f.write(str(i))
 
 printList(resultList)
-#moveToCheck("ghd sit")
+moveToCheck("ghd sit")
