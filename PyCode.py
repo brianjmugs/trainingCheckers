@@ -28,6 +28,11 @@ content = content.replace("rowing progression", "")
 content = content.replace("strict hspu + deadlift progression", "")
 content = content.replace("ring dip", "ring dips")
 content = content.replace("bench", "bench press")
+content = content.replace("cal erg", "calorie erg")
+content = content.replace("kbs","kettlebell swing")
+content = content.replace("c2 bike","bike erg")
+
+
 #print("test1")
 #def removeLine(word):
 #    for item in content.split("\n"):
@@ -42,8 +47,8 @@ unique_words = set(content.split(' '))
 #movements looking to check 
 movements = ['deadlift',"overhead squats","clean","back squat","front squat","power clean","chest to bar","burpee","jerk","hspu",'snatch',"row","bike erg","echo bike",
 "pistols","strict press","push press","split jerk","push jerk","ski ","bar muscle up","ring muscle up","strict hspu", "wall walk","power snatch","squat snatch",
-"pull ups","double under","squat clean","toes to bar","ring dips","strict pull up","thrusters","hang power snatch","push-ups","rope climb","wallball","bench press",
-"lunges","sotts press","sumo deadlift","snatch balance","ghd","devil press","sit ups"]
+"pull ups","double under","squat clean","toes to bar","ring dip","strict pull up","thrusters","hang power snatch","push-ups","rope climb","wallball","bench press",
+"lunges","sotts press","sumo deadlift","snatch balance","ghd","devil press","sit ups", "run","calorie erg","d-ball","sandbag","air squat","kettlebell swing"]
 
 weightlfiting = [
 'Back Pause Squat',
@@ -114,4 +119,4 @@ movementSort = ""
 ##print(movementSort)
 
 printList(resultList)
-moveToCheck("ghd sit")
+#moveToCheck("ghd sit")
