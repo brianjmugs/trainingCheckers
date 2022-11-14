@@ -5,19 +5,20 @@ import os
 files = os.listdir()
 content = ""
 for i in files:
-    if ".txt" in i:
+    if "Chalk" in i:
         f = open(i, 'r',encoding='utf8', errors='ignore')
         content = content + f.read()
         #print(i)
         f.close()
-content = content.replace("- ","")
+content = content.replace("- "," ")
+content = content.replace("-"," ")
 content = content.replace("[","")
 content = content.replace("]","")
 content = content.lower()
 content = content.strip()
 content = content.replace("ttb","toes to bar")
 content = content.replace("ctb","chest to bar")
-content = content.replace("press up","push-ups")
+content = content.replace("press up","push ups")
 content = content.replace("snatch deadlift","sntchdeadlift")
 content = content.replace("db snatch", "dbsnatch")
 content = content.replace("dumbbell snatch", "dbSnatch")
@@ -27,10 +28,12 @@ content = content.replace("weightlifting, strength + accessory", "")
 content = content.replace("rowing progression", "")
 content = content.replace("strict hspu + deadlift progression", "")
 content = content.replace("ring dip", "ring dips")
+content = content.replace("rmu", "ring muscle up")
 content = content.replace("bench", "bench press")
 content = content.replace("cal erg", "calorie erg")
 content = content.replace("kbs","kettlebell swing")
 content = content.replace("c2 bike","bike erg")
+content = content.replace("bar muscle-up","bar muscle up")
 
 
 #print("test1")
@@ -46,9 +49,9 @@ unique_words = set(content.split(' '))
 
 #movements looking to check 
 movements = ['deadlift',"overhead squats","clean","back squat","front squat","power clean","chest to bar","burpee","jerk","hspu",'snatch',"row","bike erg","echo bike",
-"pistols","strict press","push press","split jerk","push jerk","ski ","bar muscle up","ring muscle up","strict hspu", "wall walk","power snatch","squat snatch",
-"pull ups","double under","squat clean","toes to bar","ring dip","strict pull up","thrusters","hang power snatch","push-ups","rope climb","wallball","bench press",
-"lunges","sotts press","sumo deadlift","snatch balance","ghd","devil press","sit ups", "run","calorie erg","d-ball","sandbag","air squat","kettlebell swing"]
+"pistol","strict press","push press","split jerk","push jerk","ski ","bar muscle up","ring muscle up","strict hspu", "wall walk","power snatch","squat snatch",
+"pull up","double under","squat clean","toes to bar","ring dip","strict pull up","thrusters","hang power snatch","push ups","rope climb","wallball","bench press",
+"lunge","sotts press","sumo deadlift","snatch balance","ghd","devil press","sit ups", "run","calorie erg","d ball","sandbag","air squat","kettlebell swing"]
 
 weightlfiting = [
 'Back Pause Squat',
@@ -117,6 +120,9 @@ movementSort = ""
 #for i in listByName:
 #    movements.append(i)
 ##print(movementSort)
+with open('training.txt', 'w') as f:
+    for i in resultList:
+        f.write(str(i))
 
 printList(resultList)
 #moveToCheck("ghd sit")
