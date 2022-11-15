@@ -116,7 +116,7 @@ gymnastics = []
 
 #return line with 
 def moveToCheck(moveToCheck,list2):
-    print("test1-1")
+    #print("test1-1")
     print(moveToCheck.upper())
     for item in list2.split("\n"):
         if moveToCheck in item:
@@ -149,9 +149,9 @@ def trainingListPrint(file):
 def printWeak3(list3,list2):
     print("3 Least Done")
     
-    print(list3[0:3])
+    #print(list3[0:3])
     for i in list3[0:3]:
-        print("test1-1-1")
+        #print("test1-1-1")
         moveToCheck(i[1],list2)
 
 def runTest(formatted):
@@ -161,10 +161,13 @@ def runTest(formatted):
     #print(original[0:100])
     #print("Test1")
     formatted = checkFromList(formatted)
-    print("Test2", formatted[0:1],original[0:50])
+    #print("Test2", formatted[0:1],original[0:50])
     formatted.sort()
-    print("Test3")
+    #print("Test3")
     printWeak3(formatted,original)
-    
+
+print("Programming Data")
 runTest(content)
+print("Completed Data")
+runTest(trainingLogContent)
 
