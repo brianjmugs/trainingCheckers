@@ -50,7 +50,9 @@ def cleanData(cleanDataList):
     cleanDataList = cleanDataList.replace("c2 bike","bike erg")
     cleanDataList = cleanDataList.replace("bar muscle-up","bar muscle up")
     return cleanDataList
+contentOrig = cleanData(content)
 content = cleanData(content)
+trainingLogContentOrigi = cleanData(trainingLogContent)
 trainingLogContent = cleanData(trainingLogContent)
 #print("test1")
 #def removeLine(word):
@@ -113,9 +115,10 @@ weightlfiting = [
 gymnastics = []
 
 #return line with 
-def moveToCheck(moveToCheck):
+def moveToCheck(moveToCheck,list2):
+    print("test1-1")
     print(moveToCheck.upper())
-    for item in content.split("\n"):
+    for item in list2.split("\n"):
         if moveToCheck in item:
             print (item.strip())
     print("\n")
@@ -143,12 +146,25 @@ def trainingListPrint(file):
             f.write(str(i))
 
 
-def printWeak3(list3):
+def printWeak3(list3,list2):
     print("3 Least Done")
+    
+    print(list3[0:3])
     for i in list3[0:3]:
-        moveToCheck(i[1])
+        print("test1-1-1")
+        moveToCheck(i[1],list2)
 
-trainingLogContent = checkFromList(trainingLogContent)
-trainingLogContent.sort()
-print(trainingLogContent)
-printWeak3(trainingLogContent)
+def runTest(formatted):
+    #print(formatted[0:100])
+    original = ""
+    original = formatted
+    #print(original[0:100])
+    #print("Test1")
+    formatted = checkFromList(formatted)
+    print("Test2", formatted[0:1],original[0:50])
+    formatted.sort()
+    print("Test3")
+    printWeak3(formatted,original)
+    
+runTest(content)
+
