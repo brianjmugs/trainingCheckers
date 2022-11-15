@@ -1,10 +1,16 @@
 Training log 
-Date, Movement, Weight if applicable 
-14-11-2022, Strict HSPU, 15
-14-11-2022, Overhead Squat, 20
+Date, Movement, Weight if applicable
 12-11-2022, TTB, 
 12-11-2022, HSPU 
 12-11-2022, Pistol
 12-11-2022, Power clean, 90
 12-11-2022, Push Jerk, 90
 12-11-2022, Split Jerk, 90
+14-11-2022, Strict HSPU, 15
+14-11-2022, Overhead Squat, 20
+14-11-2022, Ring Dips, 
+14-11-2022, Sotts Press, 20
+14-11-2022, Push Press, 42.5
+14-11-2022, Push Jerk, 42.5
+14-11-2022, Burpee,
+14-11-2022, Row Calories, 
