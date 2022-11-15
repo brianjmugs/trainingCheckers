@@ -148,7 +148,6 @@ def trainingListPrint(file):
 
 def printWeak3(list3,list2):
     print("3 Least Done")
-    
     #print(list3[0:3])
     for i in list3[0:3]:
         #print("test1-1-1")
