@@ -7,48 +7,51 @@ content = ""
 trainingLogContent = ""
 trainFile = os.listdir()
 for i in files:
-    print(i)
+    #print(i)
     if ".txt" in i:
         i = "data/"+str(i)
-        print(i)
+        #print(i)
         f = open(i, 'r',encoding='utf8', errors='ignore')
         content = content + f.read()
         #print(i)
         f.close()
 
 for i in trainFile:
-    print(i)
+    #print(i)
     if ".txt" in i:
-        print(i)
+        #print(i)
         f = open(i, 'r',encoding='utf8', errors='ignore')
         trainingLogContent = trainingLogContent + f.read()
         f.close()
-print(trainingLogContent)
-content = content.replace("- "," ")
-content = content.replace("-"," ")
-content = content.replace("[","")
-content = content.replace("]","")
-content = content.lower()
-content = content.strip()
-content = content.replace("ttb","toes to bar")
-content = content.replace("ctb","chest to bar")
-content = content.replace("press up","push ups")
-content = content.replace("snatch deadlift","sntchdeadlift")
-content = content.replace("db snatch", "dbsnatch")
-content = content.replace("dumbbell snatch", "dbSnatch")
-content = content.replace("db ","db")
-content = content.replace("wall ball","wallball")
-content = content.replace("weightlifting, strength + accessory", "")
-content = content.replace("rowing progression", "")
-content = content.replace("strict hspu + deadlift progression", "")
-content = content.replace("ring dip", "ring dips")
-content = content.replace("rmu", "ring muscle up")
-content = content.replace("bench", "bench press")
-content = content.replace("cal erg", "calorie erg")
-content = content.replace("kbs","kettlebell swing")
-content = content.replace("c2 bike","bike erg")
-content = content.replace("bar muscle-up","bar muscle up")
 
+def cleanData(cleanDataList):
+    cleanDataList = cleanDataList.replace("- "," ")
+    cleanDataList = cleanDataList.replace("-"," ")
+    cleanDataList = cleanDataList.replace("[","")
+    cleanDataList = cleanDataList.replace("]","")
+    cleanDataList = cleanDataList.lower()
+    cleanDataList = cleanDataList.strip()
+    cleanDataList = cleanDataList.replace("ttb","toes to bar")
+    cleanDataList = cleanDataList.replace("ctb","chest to bar")
+    cleanDataList = cleanDataList.replace("press up","push ups")
+    cleanDataList = cleanDataList.replace("snatch deadlift","sntchdeadlift")
+    cleanDataList = cleanDataList.replace("db snatch", "dbsnatch")
+    cleanDataList = cleanDataList.replace("dumbbell snatch", "dbSnatch")
+    cleanDataList = cleanDataList.replace("db ","db")
+    cleanDataList = cleanDataList.replace("wall ball","wallball")
+    cleanDataList = cleanDataList.replace("weightlifting, strength + accessory", "")
+    cleanDataList = cleanDataList.replace("rowing progression", "")
+    cleanDataList = cleanDataList.replace("strict hspu + deadlift progression", "")
+    cleanDataList = cleanDataList.replace("ring dip", "ring dips")
+    cleanDataList = cleanDataList.replace("rmu", "ring muscle up")
+    cleanDataList = cleanDataList.replace("bench", "bench press")
+    cleanDataList = cleanDataList.replace("cal erg", "calorie erg")
+    cleanDataList = cleanDataList.replace("kbs","kettlebell swing")
+    cleanDataList = cleanDataList.replace("c2 bike","bike erg")
+    cleanDataList = cleanDataList.replace("bar muscle-up","bar muscle up")
+    return cleanDataList
+content = cleanData(content)
+trainingLogContent = cleanData(trainingLogContent)
 #print("test1")
 #def removeLine(word):
 #    for item in content.split("\n"):
@@ -118,24 +121,34 @@ def moveToCheck(moveToCheck):
     print("\n")
 
 #check through string and print count 
-resultList = []
-for i in movements:
-    count = content.count(i.lower())
-    resultList.append([count,i])
+def checkFromList(moveList):
+    resultList = []
+    for i in movements:
+        count = moveList.count(i.lower())
+        resultList.append([count,i])
+    return resultList
 
-resultList.sort()
 def printList(list):
     for i in list:
         print(i)
 
-movementSort = ""
+checkFromList(content)
 #listByName = sorted(resultList, key=lambda x : x[1])
 #for i in listByName:
 #    movements.append(i)
 ##print(movementSort)
-with open('results/training.txt', 'w') as f:
-    for i in resultList:
-        f.write(str(i))
+def trainingListPrint(file):
+    with open('results/training.txt', 'w') as f:
+        for i in resultList:
+            f.write(str(i))
 
-printList(resultList)
-moveToCheck("ghd sit")
+
+def printWeak3(list3):
+    print("3 Least Done")
+    for i in list3[0:3]:
+        moveToCheck(i[1])
+
+trainingLogContent = checkFromList(trainingLogContent)
+trainingLogContent.sort()
+print(trainingLogContent)
+printWeak3(trainingLogContent)
