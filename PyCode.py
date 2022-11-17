@@ -153,6 +153,7 @@ def printWeak3(list3,list2):
         #print("test1-1-1")
         moveToCheck(i[1],list2)
 
+
 def runTest(formatted):
     #print(formatted[0:100])
     original = ""

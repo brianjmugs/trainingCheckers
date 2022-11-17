@@ -23,5 +23,19 @@ Date, Movement, Weight if applicable
 15-11-2022, Echo Bike, 
 15-11-2022, Push Jerk, 100
 15-11-2022, Push Jerk, 60 
-15-11-2022, Hsw 
+15-11-2022, Hsw, 
 15-11-2022, Overhead Walking Lunge, 70 
+16-11-2022, Overhead Squat, 90 
+16-11-2022, Row Calories, 
+16-11-2022, Clean, 120 
+16-11-2022, Split Jerk, 120
+16-11-2022, Strict HSPU, 
+16-11-2022, Row Calories, 
+16-11-2022, Deadlift, 90 
+16-11-2022, Power Snatch, 62.5
+16-11-2022, Bike Erg, 
+17-11-2022, Strict Pull up, 24
+17-11-2022, Strict Ring Dip, 40 
+17-11-2022, DB Overhead Lunge, 22.5 
+17-11-2022, Single Leg TTB, 
+17-11-2022, Push Ups, 
