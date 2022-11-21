@@ -49,3 +49,7 @@ Date, Movement, Weight if applicable
 19-11-2022, HSPU, 
 19-11-2022, Toe To Bar,
 19-11-2022, Chest to bar, 
+21-11-2022, Bench Press, 92.5
+21-11-2022, Wall ball, 12
+21-11-2022, Row Calories, 
+21-11-2022, Strict HSPU, 
