@@ -69,7 +69,7 @@ unique_words = set(content.split(' '))
 movements = ['deadlift',"overhead squats","clean","back squat","front squat","power clean","chest to bar","burpee","jerk","hspu",'snatch',"row","bike erg","echo bike",
 "pistol","strict press","push press","split jerk","push jerk","ski ","bar muscle up","ring muscle up","strict hspu", "wall walk","power snatch","squat snatch",
 "pull up","double under","squat clean","toes to bar","ring dip","strict pull up","thrusters","hang power snatch","push ups","rope climb","wallball","bench press",
-"lunge","sotts press","sumo deadlift","snatch balance","ghd","devil press","sit ups", "run","calorie erg","d ball","sandbag","air squat","kettlebell swing"]
+"lunge","sotts press","sumo deadlift","snatch balance","ghd","devil press","sit ups", "run","d ball","sandbag","air squat","kettlebell swing"]
 
 weightlfiting = [
 'Back Pause Squat',
