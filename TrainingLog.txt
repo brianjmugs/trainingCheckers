@@ -60,3 +60,10 @@ Date, Movement, Weight if applicable
 23-11-2022, Row Meters, 
 23-11-2022, Power Snatch, 40
 23-11-2022, Bike Erg, 
+23-11-2022, Sotts Press, 
+23-11-2022, Bar Muscle Up, 
+23-11-2022, Air Squat 
+23-11-2022, Overhead Squat 
+23-11-2022, Push Jerk, 
+23-11-2022, Front Squat, 
+24-11-2022, Pull Ups,
