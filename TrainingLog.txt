@@ -67,3 +67,4 @@ Date, Movement, Weight if applicable
 23-11-2022, Push Jerk, 
 23-11-2022, Front Squat, 
 24-11-2022, Pull Ups,
+25-11-2022, Nothing, 
