@@ -68,3 +68,13 @@ Date, Movement, Weight if applicable
 23-11-2022, Front Squat, 
 24-11-2022, Pull Ups,
 25-11-2022, Nothing, 
+26-11-2022, Bar Muscle Ups,
+26-11-2022, Db Devil Press, 
+26-11-2022, Db Thruster, 
+26-11-2022, Run 
+26-11-2022, Snatch, 75
+26-11-2022, Ring Muscle Up, 
+26-11-2022, Sotts Press,
+26-11-2022, Overhead Squat, 
+26-11-2022, Air Squat,
+26-11-2022, Butterfly Chest to bar, 
