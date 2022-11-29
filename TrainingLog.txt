@@ -79,3 +79,10 @@ Date, Movement, Weight if applicable
 26-11-2022, Air Squat,
 26-11-2022, Butterfly Chest to bar, 
 27-11-2022, Run, 5k
+28-11-2022, Bike erg, 
+28-11-2022, Row, 
+28-11-2022, Snatch, 65
+28-11-2022, Back Squat, 130
+28-11-2022, Step Up, 22.5
+28-11-2022, Db Snatch, 22.5
+28-11-2022, Ring Dip, 
