@@ -85,4 +85,13 @@ Date, Movement, Weight if applicable
 28-11-2022, Back Squat, 130
 28-11-2022, Step Up, 22.5
 28-11-2022, Db Snatch, 22.5
-28-11-2022, Ring Dip, 
+28-11-2022, Ring Dip,
+29-11-2022, Double Unders,
+29-11-2022, Db hand clean and jerk, 
+29-11-2022, Bar Muscle Up,
+29-11-2022, Overhead Squat, 65
+29-11-2022, Row Calories, 
+29-11-2022, Toe to bar, 
+29-11-2022, Ring Muscle Up,
+29-11-2022, Sotts Press, 20
+29-11-2022, Butterfly Chest to bar, 
