@@ -98,3 +98,7 @@ Date, Movement, Weight if applicable
 30-11-2022, Bike Erg, 
 30-11-2022, Deadlift, 120
 30-11-2022, Double Unders, 
+01-12-2022, Bar Facing Burpee,
+01-12-2022, Hang Power Clean, 70
+01-12-2022, Push Press, 42.5
+01-12-2022, Box Jump, 30
