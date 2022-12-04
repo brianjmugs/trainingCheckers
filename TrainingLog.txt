@@ -102,3 +102,13 @@ Date, Movement, Weight if applicable
 01-12-2022, Hang Power Clean, 70
 01-12-2022, Push Press, 42.5
 01-12-2022, Box Jump, 30
+02-12-2022, Row Calories,
+02-12-2022, Wall Ball, 6
+02-12-2022, Row Calories, 
+02-12-2022, Bike Erg, 
+02-12-2022, Shuttle Sprints,
+03-12-2022, Clean, 110
+03-12-2022, Front Squat, 110
+03-12-2022, Split Jekr, 110
+03-12-2022, Ring Muscle up,
+03-12-2022, Squat Clean and Jerk, 75 
