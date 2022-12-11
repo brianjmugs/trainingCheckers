@@ -132,3 +132,14 @@ Date, Movement, Weight if applicable
 08-12-2022, Toes to bar, 
 08-12-2022, Supinated Grip Bent Over Barbell Row, 70
 08-12-2022, Supinated Grip Ring Chin-Up 
+09-12-2022, Deadlift, 210
+09-12-2022, Burpee over the bar, 
+10-12-2022, Dumbbell Push Press,
+10-12-2022, Row Erg, 
+10-12-2022, Bike Erg, 
+10-12-2022, Wall Ball, 9
+11-12-2022, Row Erg, 
+11-12-2022, Strict Pull Up,
+11-12-2022, D-Ball Carry, 
+11-12-2022, D-ball over shoulder, 
+11-12-2022, Handstand Walk, 
