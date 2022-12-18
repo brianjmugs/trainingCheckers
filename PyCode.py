@@ -49,6 +49,7 @@ def cleanData(cleanDataList):
     cleanDataList = cleanDataList.replace("kbs","kettlebell swing")
     cleanDataList = cleanDataList.replace("c2 bike","bike erg")
     cleanDataList = cleanDataList.replace("bar muscle-up","bar muscle up")
+    cleanDataList = cleanDataList.replace("sit up","sit-up")
     return cleanDataList
 contentOrig = cleanData(content)
 content = cleanData(content)
