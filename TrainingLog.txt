@@ -175,3 +175,15 @@ Date, Movement, Weight if applicable
 17-12-2022, Thrusters, 42.5
 17-12-2022, Burpee over the Bar
 17-12-2022, Thrusters, 60
+18-12-2022, Dumbbell Snatch, 22.5
+18-12-2022, Ab-Mat Sit-ups,
+18-12-2022, Double Unders,
+18-12-2022, Bench Press, 95
+19-12-2022, BMU
+19-12-2022, Box Jumps
+19-12-2022, Dumbbell Hang Clean and Jerk, 30
+19-12-2022, Bike Erg,
+20-12-2022, Front Squat, 90
+20-12-2022, Back Squat, 90
+20-12-2022, wall walk
+20-12-2022, Double Unders
