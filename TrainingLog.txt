@@ -193,3 +193,7 @@ Date, Movement, Weight if applicable
 21-12-2022, Power Snatch, 70
 21-12-2022, Hang Snatch, 70 
 21-12-2022, Snatch Balance, 70
+21-12-2022, Squat Snatch, 70
+22-12-2022, Bike Erg, 
+22-12-2022, Row Erg, 
+22-12-2022, Echo Bike, 
