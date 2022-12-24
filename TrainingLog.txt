@@ -197,3 +197,7 @@ Date, Movement, Weight if applicable
 22-12-2022, Bike Erg, 
 22-12-2022, Row Erg, 
 22-12-2022, Echo Bike, 
+24-12-2022, Run, 1 Mile
+24-12-2022, Pull Ups,
+24-12-2022, Push Ups, 
+24-12-2022, Air Squats,
