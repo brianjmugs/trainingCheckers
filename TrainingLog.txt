@@ -222,3 +222,6 @@ Date, Movement, Weight if applicable
 02-01-2023, Strict HSPU, 
 02-01-2023, Snatch Balance, 50
 02-01-2023, Bike Erg,
+03-01-2023, Overhead Squat, 70
+03-01-2023, 20/15 Echo Bike
+03-01-2023, 10 Overhead Squats, 60/42.5
