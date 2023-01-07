@@ -225,3 +225,33 @@ Date, Movement, Weight if applicable
 03-01-2023, Overhead Squat, 70
 03-01-2023, 20/15 Echo Bike
 03-01-2023, 10 Overhead Squats, 60/42.5
+07/01/2023,deadlift,150
+07/01/2023,Russian kb swing,32
+07/01/2023,burpee to target,n/a
+07/01/2023,hand release push ups,n/a
+07/01/2023,run,n/a
+07/01/2023,back rack lunges,42.5
+07/01/2023,toes to bar,n/a
+07/01/2023,Snatch deadlift,70
+07/01/2023,hang snatch pull,70
+07/01/2023,hang power snatch ,70
+07/01/2023,wall walk,n/a
+07/01/2023,db snatch,22.5
+07/01/2023,box jump over,n/a
+07/01/2023,echo bike,n.a
+07/01/2023,wall ball,9
+07/01/2023,sit uo,n.a
+07/01/2023,sit ups,n.a
+
+07/01/2023,sit ups,n.a
+
+07/01/2023,barbell high hang muscle snatch,20
+
+07/01/2023,barbell behind neck strict press,20
+
+07/01/2023,barbell skull crushers,20
+
+07/01/2023,barbell curls,20
+
+07/01/2023,strict pull ups,blue band
+
