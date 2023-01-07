@@ -240,18 +240,8 @@ Date, Movement, Weight if applicable
 07/01/2023,box jump over,n/a
 07/01/2023,echo bike,n.a
 07/01/2023,wall ball,9
-07/01/2023,sit uo,n.a
-07/01/2023,sit ups,n.a
-
-07/01/2023,sit ups,n.a
-
 07/01/2023,barbell high hang muscle snatch,20
-
 07/01/2023,barbell behind neck strict press,20
-
 07/01/2023,barbell skull crushers,20
-
 07/01/2023,barbell curls,20
-
 07/01/2023,strict pull ups,blue band
-
