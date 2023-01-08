@@ -244,4 +244,11 @@ Date, Movement, Weight if applicable
 07/01/2023,barbell behind neck strict press,20
 07/01/2023,barbell skull crushers,20
 07/01/2023,barbell curls,20
-07/01/2023,strict pull ups,blue band
+07/01/2023,strict pull ups,blue band08/01/2023,Sumo Deadlift ,100
+
+08/01/2023,Snatch Balance,50
+
+08/01/2023,Sandbag hold,60
+
+08/01/2023,rope climb,n/a
+
