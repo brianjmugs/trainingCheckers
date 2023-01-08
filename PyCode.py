@@ -53,7 +53,6 @@ def cleanData(cleanDataList):
     cleanDataList = cleanDataList.replace("Devil's","devils")
     cleanDataList = cleanDataList.replace("devils","devil")
     cleanDataList = cleanDataList.replace("kb swing","kettlebell swing")
-    
     return cleanDataList
 contentOrig = cleanData(content)
 content = cleanData(content)
