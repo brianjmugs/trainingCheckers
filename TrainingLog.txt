@@ -72,7 +72,7 @@ Date, Movement, Weight if applicable
 26-11-2022, Db Devil Press, 
 26-11-2022, Db Thruster, 
 26-11-2022, Run 
-26-11-2022, Snatch, 75
+26-11-2022, Squat Snatch, 75
 26-11-2022, Ring Muscle Up, 
 26-11-2022, Sotts Press,
 26-11-2022, Overhead Squat, 
@@ -81,7 +81,7 @@ Date, Movement, Weight if applicable
 27-11-2022, Run, 5k
 28-11-2022, Bike erg, 
 28-11-2022, Row, 
-28-11-2022, Snatch, 65
+28-11-2022, Squat Snatch, 65
 28-11-2022, Back Squat, 130
 28-11-2022, Step Up, 22.5
 28-11-2022, Db Snatch, 22.5
@@ -153,7 +153,7 @@ Date, Movement, Weight if applicable
 14-12-2022, Bike erg, 
 14-12-2022, Box Jump Overs,
 14-12-2022, Chest to Bar
-14-12-2022, Snatch, 80
+14-12-2022, Squat Snatch, 80
 14-12-2022, OVERHEAD SQUATS, 75
 14-12-2022, Thruster, 75 
 14-12-2022, GHD, 
@@ -246,6 +246,17 @@ Date, Movement, Weight if applicable
 07/01/2023,barbell curls,20
 07/01/2023,strict pull ups,blue band08/01/2023,Sumo Deadlift ,100
 
-08/01/2023,Snatch balance,5008/01/2023,sandbag hold,6008/01/2023,rope climb,n/a08/01/2023,snatch balance,50
-08/01/2023,sandbag hold,60
-08/01/2023,rope climb,n/a
+08/01/2023,sandbag hold,60
+
+08/01/2023,rope climb,n/a
+
+08/01/2023,Sandbag hold,40
+
+08/01/2023,Overhead squat,20
+
+08/01/2023,handstand hold,bw
+
+08/01/2023,bike erg,n/a
+
+09/01/2023,Ski Erg,20
+09/01/2023,Toes to bar,15
