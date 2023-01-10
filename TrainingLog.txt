@@ -258,5 +258,7 @@ Date, Movement, Weight if applicable
 
 08/01/2023,bike erg,n/a
 
-09/01/2023,Ski Erg,20
-09/01/2023,Toes to bar,15
+09/01/2023,Ski Erg,20
+
+09/01/2023,Toes to bar,15
+
