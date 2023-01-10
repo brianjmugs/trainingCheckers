@@ -262,3 +262,13 @@ Date, Movement, Weight if applicable
 
 09/01/2023,Toes to bar,15
 
+09/01/2023,thruster,40
+
+09/01/2023,bar muscle up,low bar
+
+09/01/2023,back squat,135
+
+09/01/2023,db front squat,22.5
+
+09/01/2023,db lunge ,22.5
+
