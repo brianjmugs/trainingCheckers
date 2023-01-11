@@ -1,0 +1,33 @@
+Here's an example of how you can use the list of movements and a training log text file to keep track of how many times each movement has been done:
+
+Copy code
+# The list of movements
+movement_list = ["squat", "deadlift", "bench press"]
+
+# A dictionary to keep track of the number of times each movement has been done
+movement_count = {movement: 0 for movement in movement_list}
+
+# Open the training log text file
+with open('training_log.txt', 'r') as file:
+    # Iterate through each line of the file
+    for line in file:
+        # Split the line by commas
+        date, movement, weight = line.strip().split(',')
+        # Check if the movement is in the list of movements
+        if movement not in movement_list:
+            # if not then add the new movement to the list
+            movement_list.append(movement)
+            movement_count[movement] = 0
+        # Increase the count of the movement in the dictionary
+        movement_count[movement] += 1
+In this example, the movement_list is initially defined with a few movements, a dictionary movement_count is defined using a dictionary comprehension with the same movements and 0 as the value for each key
+
+The code uses the with open statement to open the training_log.txt file, which is assumed to be in the same directory as the script. The for loop is used to iterate through each line of the file, which is assumed to be formatted as "date, movement, weight". The strip() and split(',') methods are used to extract the movement from each line.
+
+The if statement checks if the movement is in the list of movements. If it is not, it appends the new movement to the list and also adds it to the movement_count dictionary. If it already exists in the list, it increases the count of that movement in the movement_count dictionary.
+
+This way, you'll be able to know how many times each movement has been done by simply accessing the dictionary key of the movement.
+You can also add print statements to see if the code is working as you want it to
+
+
+
