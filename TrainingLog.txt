@@ -272,3 +272,8 @@ Date, Movement, Weight if applicable
 
 09/01/2023,db lunge ,22.5
 
+10/01/2023,Hang Power Snatch,70
+10/01/2023,Db Devil Clean,22.5
+10/01/2023,Burpee,bw
+10/01/2023,bike erg,bw
+10/01/2023,double unders,30
