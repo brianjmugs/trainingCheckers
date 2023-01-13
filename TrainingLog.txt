@@ -244,7 +244,8 @@ Date, Movement, Weight if applicable
 07/01/2023,barbell behind neck strict press,20
 07/01/2023,barbell skull crushers,20
 07/01/2023,barbell curls,20
-07/01/2023,strict pull ups,blue band08/01/2023,Sumo Deadlift ,100
+07/01/2023,strict pull ups,blue band
+08/01/2023,Sumo Deadlift ,100
 
 08/01/2023,sandbag hold,60
 
@@ -281,4 +282,22 @@ Date, Movement, Weight if applicable
 10/01/2023,bike erg,bw
 
 10/01/2023,double unders,30
+
+12/01/2023,ghd sit up,10
+
+12/01/2023,strict pull ups ,5
+
+12/01/2023,back squat ,80
+
+12/01/2023,front squat,70
+
+12/01/2023,thruster,50
+
+12/01/2023,echo bike,15
+
+11/01/2023,ring muscle up,5
+
+11/01/2023,sit ups,50
+
+11/01/2023,echo bike,50
 
