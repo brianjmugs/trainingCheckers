@@ -301,3 +301,7 @@ Date, Movement, Weight if applicable
 
 11/01/2023,echo bike,50
 
+13/01/2023,hang power clean,110
+13/01/2023,push jerk,110
+13/01/2023,hang power clean and jerk,42.5
+13/01/2023,box jump,24 inch
