@@ -305,3 +305,9 @@ Date, Movement, Weight if applicable
 13/01/2023,push jerk,110
 13/01/2023,hang power clean and jerk,42.5
 13/01/2023,box jump,24 inch
+14/01/2023,deadlift,150
+14/01/2023,hspu,15
+14/01/2023,wall ball,9
+14/01/2023,row erg,55
+14/01/2023,bar muscle up,blue band
+14/01/2023,ring muscle up ,blue band
